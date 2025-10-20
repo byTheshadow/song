@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="same-origin">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="This is halloween-Marilyn Manson,歌曲宝,歌曲搜索,音乐免费下载,MP3下载,收费音乐免费下载,付费音乐免费下载,在线mp3下载网站,歌曲免费下载工具">
+    <meta name="description"
+          content="This is halloween-Marilyn Manson.mp3免费在线下载播放,歌曲宝在线音乐搜索，可以在线免费下载全网MP3付费歌曲、流行音乐、经典老歌等。曲库完整，更新迅速，试听流畅，支持高品质|无损音质~">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="音乐MP3免费下载网站">
+    <meta name="application-name" content="音乐MP3免费下载网站">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+
+    <title>This is halloween-Marilyn Manson-mp3免费在线下载播放-歌曲宝-找歌就用歌曲宝-MP3音乐高品质在线免费下载</title>
+    
+    <link rel="stylesheet" href="//cdn.bytedance.com/cdn/expire-1-M/bootstrap/4.6.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//cdn.bytedance.com/cdn/expire-1-M/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="//cdn.bytedance.com/cdn/expire-1-M/jquery-confirm/3.3.4/jquery-confirm.min.css"/>
+
+    
+    <script src="//cdn.bytedance.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js"></script>
+
+    
+    <script defer src="//cdn.bytedance.com/cdn/expire-1-M/bootstrap/4.6.1/js/bootstrap.bundle.min.js"></script>
+    <script defer src="//cdn.bytedance.com/cdn/expire-1-M/jquery-confirm/3.3.4/jquery-confirm.min.js"></script>
+
+        <meta property="og:image" content="http://img4.kuwo.cn/star/albumcover/500/s3s26/26/1784411134.jpg"/>
+    <link href="//cdn.bytedance.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="container" style="max-width: 900px">
+    <nav class="navbar navbar-expand-md navbar-light bg-white px-0 mb-1 font-weight-normal">
+    <a class="navbar-brand font-weight-bolder" style="font-size: 1.5rem;color: #50514F;" href="/">
+        <img src="/static/img/logo.png" width="50" height="50" class="d-inline-block align-middle" alt="logo">
+        歌曲宝
+        <span class="text-muted" style="font-size: smaller">Gequbao.com</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/hot-news">资讯</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    排行榜
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="border-top: 0.15rem solid #1e9fff;">
+                    <a class="dropdown-item" href="/top/week-search"><i class="fa fa-trophy" style="color: #ff6347"></i> 周搜索榜</a>
+                    <a class="dropdown-item" href="/top/week-download"><i class="fa fa-trophy" style="color: #ff6347"></i> 周下载榜</a>
+                </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link reddot" href="/hot-music">推荐</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="btn btn-outline-dark  btn-sm text-muted" target="_blank" href="/member/history">
+                    我的收藏
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>        
+    <div class="row mb-2">
+        </div>
+
+    
+    <div id="aplayer">
+        <img src="http://img4.kuwo.cn/star/albumcover/500/s3s26/26/1784411134.jpg" style="width: 90px;height: 90px;" alt="cover">
+    </div>
+    
+    <div class="card shadow-sm mb-3">
+        <div class="card-body py-2">
+            <div id="music-title" class="h5 text-center mb-4 text-truncate">
+                <h1 class="badge badge-light-green" style="max-width: 60%;">This is halloween - Marilyn Manson</h1>
+                <button id="music-favorite-btn" class="btn btn-sm rounded-pill border font-weight-bolder"
+                        style="color: #666">
+                </button>
+            </div>
+
+                            <div class="quote-warning mb-2" style="font-size: 0.85rem">
+                    <i class="fa fa-info-circle"></i>
+                    如无法下载或有错误，请刷新重试或点此 <a id="music-feedback-btn" style="text-decoration: underline;"
+                                                           href="javascript:void(0)">反馈</a> 给我们
+                </div>
+            
+            <div class="input-group mb-1 overflow-hidden">
+                <div class="input-group-prepend">
+                    <i class="fa fa-music input-group-text"></i>
+                </div>
+                <span class="form-control bg-light nowrap-hidden">
+                   This is halloween-Marilyn Manson.mp3
+                </span>
+                <div class="input-group-append">
+                    <a id="btn-download-mp3" class="btn btn-primary" target="_blank">
+                        <i class="fa fa-download"></i>
+                        下载歌曲</a>
+                </div>
+            </div>
+            <div class="input-group overflow-hidden">
+                <div class="input-group-prepend">
+                    <i class="fa fa-file-text-o input-group-text"></i>
+                </div>
+                <span class="form-control bg-light nowrap-hidden">
+                    [00:02.37]This is halloween - Marilyn Manson  
+[00...
+                </span>
+                <div class="input-group-append">
+                    <a id="btn-download-lrc" class="btn btn-primary"><i class="fa fa-download"></i> 下载歌词</a>
+                </div>
+            </div>
+            <div style="display: block">
+                <div class="content-lrc mt-1" id="content-lrc">[00:02.37]This is halloween - Marilyn Manson  <br />
+[00:17.76]Boys and girls of every age<br />
+[00:20.37]男孩女孩不管你几岁<br />
+[00:20.37]Wouldn't you like to see something strange<br />
+[00:23.27]你想不想看看一些奇异的东西<br />
+[00:23.27]Come with us and you will see<br />
+[00:26.1]跟我们来 你就能看见<br />
+[00:26.1]This our town of halloween<br />
+[00:28.93]这就是我们的万圣节城<br />
+[00:28.93]This is halloween this is halloween<br />
+[00:31.76]这就是万圣节<br />
+[00:31.76]Pumpkins scream in the dead of night<br />
+[00:34.65]南瓜灯在暗夜里尖叫<br />
+[00:34.65]This is halloween everybody make a scene<br />
+[00:37.49]这就是万圣节，大家都要大显身手<br />
+[00:37.49]Trick or treat till the neighbors gonna die of fright<br />
+[00:40.44]不给糖果就捣乱，直到邻居们都受到惊吓<br />
+[00:40.44]It's our town everybody scream<br />
+[00:43.26]这是我们的城市，每个人都在尖叫<br />
+[00:43.26]In this town of halloween<br />
+[00:46.12]在这座万圣节的城市里<br />
+[00:46.12]I am the one hiding under your bed<br />
+[00:48.25]我是藏在你床下的小妖精<br />
+[00:48.25]Teeth ground sharp and eyes glowing red<br />
+[00:51.06]牙齿尖尖眼睛红红<br />
+[00:51.06]I am the one hiding under your stairs<br />
+[00:53.91]我是藏在你楼梯下的家伙<br />
+[00:53.91]Fingers like snakes and spiders in my hair<br />
+[00:56.75]手指像蛇一样，头发里爬满蜘蛛<br />
+[00:56.75]This is halloween this is halloween<br />
+[00:59.54]这就是万圣节<br />
+[00:59.54]Halloween halloween halloween halloween<br />
+[01:04.15]万圣节<br />
+[01:04.15]In this town we call home<br />
+[01:06.81]这个就是我们的家<br />
+[01:06.81]Everyone hail to the pumpkin song<br />
+[01:09.62]大家欢唱南瓜颂<br />
+[01:09.62]In this town don't we love it now<br />
+[01:12.54]这个城镇我们都喜欢<br />
+[01:12.54]Everybody's waiting for the next surprise<br />
+[01:15.36]大家都在期待下一个惊吓<br />
+[01:15.36]Round that corner man hiding in the trash can<br />
+[01:18.37]拐个弯，躲进垃圾箱<br />
+[01:18.37]Something's waiting now to pounce and how you'll<br />
+[01:20.99]我们等待向你突袭，听你的尖叫<br />
+[01:20.99]Scream this is halloween<br />
+[01:22.46]尖叫吧，这就是万圣节<br />
+[01:22.46]Red 'n' black slimy green<br />
+[01:24.03]有红有黑还有惨淡的绿色<br />
+[01:24.03]Aren't you scared<br />
+[01:25.36]你害怕了吗<br />
+[01:25.36]Well that's just fine<br />
+[01:26.8]一切都好<br />
+[01:26.8]Say it once say it twice<br />
+[01:28.19]说一次，说两次<br />
+[01:28.19]Take the chance and roll the dice<br />
+[01:29.91]抓住机会，掷个骰子<br />
+[01:29.91]Ride with the moon in the dead of night<br />
+[01:32.53]暗夜里跟着月亮飘荡<br />
+[01:32.53]Everybody scream everybody scream<br />
+[01:35.29]每个人都在尖叫<br />
+[01:35.29]In our town of halloween<br />
+[01:37.34]在我们的万圣节城里<br />
+[01:37.34]I am the clown with the tear away face<br />
+[01:40.369995]我是会变脸的小丑<br />
+[01:40.369995]Here in a flash and gone without a trace<br />
+[01:43.21]突然出现突然又溜走<br />
+[01:43.21]I am the who when you call who's there<br />
+[01:46.06]我是你看不见的幽灵<br />
+[01:46.06]I am the wind blowing through your hair<br />
+[01:48.97]像一阵风拂弄你的头发<br />
+[01:48.97]I am the shadow on the moon at night<br />
+[01:51.82]我是夜晚月亮中的黑影<br />
+[01:51.82]Filling your dreams to the brim with fright<br />
+[01:54.67]让你做恶梦一直吓到醒<br />
+[01:54.67]This is halloween this is halloween<br />
+[01:57.44]这就是万圣节<br />
+[01:57.44]Halloween halloween halloween halloween<br />
+[02:00.34]万圣节<br />
+[02:00.34]Halloween halloween<br />
+[02:03.55]万圣节<br />
+[02:03.55]Tender lumplings everywhere<br />
+[02:06.09]吓人的东西到处都是<br />
+[02:06.09]Life's no fun without a good scare<br />
+[02:08.95]没有恐惧的生活多无趣<br />
+[02:08.95]That's our job but we're not mean<br />
+[02:11.8]这是我们的工作，但我们绝不是故意<br />
+[02:11.8]In our town of halloween<br />
+[02:14.52]在我们的万圣节城里<br />
+[02:14.52]In this town<br />
+[02:16.07]这座城镇<br />
+[02:16.07]Don't we love it now<br />
+[02:17.6]我们都喜欢<br />
+[02:17.6]Everyone's waiting for the next surprise<br />
+[02:20.42]大家都在等着下一个惊吓<br />
+[02:20.42]Skeleton jack might catch you in the back<br />
+[02:22.83]骷髅杰克可能吓你一大跳<br />
+[02:22.83]And scream like a banshee<br />
+[02:24.61]鬼魅般的惨叫<br />
+[02:24.61]Make you jump out of your skin<br />
+[02:26.64]让你灵魂都出窍<br />
+[02:26.64]This is halloween everyone scream<br />
+[02:28.95999]这就是万圣节，大家都尖叫<br />
+[02:28.95999]Won't ya please make way for a very special guy<br />
+[02:31.79001]请你们给这个伟大的人让路<br />
+[02:31.79001]Our man jack is king of the pumpkin patch<br />
+[02:34.6]我们的杰克是南瓜王<br />
+[02:34.6]Everyone hail to the pumpkin king now<br />
+[02:37.53]大家欢呼称颂南瓜王<br />
+[02:37.53]This is halloween this is halloween<br />
+[02:40.22]这就是万圣节<br />
+[02:40.22]Halloween halloween halloween halloween<br />
+[02:44.95]万圣节<br />
+[02:44.95]In this town we call home<br />
+[02:47.77]这个就是我们的家<br />
+[02:47.77]Everyone hail to the pumpkin song<br />
+[02:50.61]大家欢唱南瓜颂<br />
+[02:50.61]La la la la<br />
+[03:01.21]啦啦啦<br />
+[03:01.21]Yeah<br />
+[03:01.94]耶</div>
+                <div class="expand" data-status="up">展开</div>
+            </div>
+        </div>
+        <div class="card-footer bg-white" id="download-log">
+    <div style="overflow:hidden;height:1rem;line-height: 1rem;">
+        <ul class="list-group">
+                            <li class="text-truncate">
+                    <a href="/s/凤凰传奇" title="凤凰传奇" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚搜索了
+                                </span>
+                        凤凰传奇
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/s/outbreakerv" title="outbreakerv" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚搜索了
+                                </span>
+                        outbreakerv
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/music/4207" title="听妈妈的话 - 周杰伦" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚下载了
+                                </span>
+                        听妈妈的话 - 周杰伦
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/s/别让轻易说分手" title="别让轻易说分手" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚搜索了
+                                </span>
+                        别让轻易说分手
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/music/35786" title="成都 - 赵雷" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚下载了
+                                </span>
+                        成都 - 赵雷
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/music/379383" title="I Do - 911" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚下载了
+                                </span>
+                        I Do - 911
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/music/18416277" title="漂流 - 肖战" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚下载了
+                                </span>
+                        漂流 - 肖战
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/music/88456" title="幸福了 然后呢 - A-Lin" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚下载了
+                                </span>
+                        幸福了 然后呢 - A-Lin
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/music/113892" title="Another Day In Paradise - The Golden Piano" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚下载了
+                                </span>
+                        Another Day In Paradise - The Golden Piano
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/s/笛子独奏荒" title="笛子独奏荒" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚搜索了
+                                </span>
+                        笛子独奏荒
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/music/51919037" title="没出息（正版原作） - 王搏" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚下载了
+                                </span>
+                        没出息（正版原作） - 王搏
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/s/天空的旋律" title="天空的旋律" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚搜索了
+                                </span>
+                        天空的旋律
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/music/21115" title="再见 - G.E.M.邓紫棋" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚下载了
+                                </span>
+                        再见 - G.E.M.邓紫棋
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/s/小野道ono+夜行少女" title="小野道ono+夜行少女" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚搜索了
+                                </span>
+                        小野道ono+夜行少女
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/s/stay+with+me+bass+boost" title="stay+with+me+bass+boost" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚搜索了
+                                </span>
+                        stay+with+me+bass+boost
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/music/16077" title="大城小爱 - 王力宏" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚下载了
+                                </span>
+                        大城小爱 - 王力宏
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/s/儒道至圣+第144集" title="儒道至圣+第144集" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚搜索了
+                                </span>
+                        儒道至圣+第144集
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/music/234099" title="有心人 - 张国荣" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚下载了
+                                </span>
+                        有心人 - 张国荣
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/s/君さえいれば" title="君さえいれば" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚搜索了
+                                </span>
+                        君さえいれば
+                    </a>
+                </li>
+                            <li class="text-truncate">
+                    <a href="/s/凤凰传奇-最炫民族风" title="凤凰传奇-最炫民族风" style="font-size: small"
+                       target="_blank">
+                                <span class="text-muted">
+                                    网友刚刚搜索了
+                                </span>
+                        凤凰传奇-最炫民族风
+                    </a>
+                </li>
+                    </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        autoScroll('#download-log');
+    });
+</script>
+    </div>
+
+    
+    <div class="modal fade" id="ad-modal" tabindex="-1" role="dialog" aria-labelledby="ad-modal-title"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title badge bg-success text-white" id="ad-modal-title">
+                        温馨提示
+                    </h5>
+                    <span class="font-weight-bolder text-danger ml-1" id="ad-modal-prompt"></span>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body d-flex justify-content-center" id="ad-modal-prepend">
+
+                </div>
+                <div class="modal-body" id="ad-modal-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    <hr>
+    
+    <div class="card shadow-sm mb-2">
+    <div class="card-body">
+        <h6 class="card-title">
+            <a href="/hot-music/1" style="color:#FF5722;text-shadow: 0 0 1px #ffeb3b;">
+                <img src="/static/img/like.png" alt="hot"> 热门推荐
+            </a>
+            <small>
+                <a class="float-right text-muted" href="/hot-music/1">更多 <i class="fa fa-angle-right"></i></a>
+            </small>
+        </h6>
+        <ul class="list-group list-group-flush">
+                            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                    style="padding: .5rem 1.25rem;font-weight: bolder;cursor: pointer"
+                    onclick="window.location.href='/music/17781';return false;">
+                    <a href="/music/17781" onclick="event.stopPropagation();">
+                        <span style="color: #339999" class="font-weight-bolder">开始懂了</span>
+                        -
+                        <small class="text-muted">孙燕姿</small>
+                    </a>
+                    <a href="/music/17781" onclick="event.stopPropagation();" style="font-size: larger">
+                        <i class="fa fa-play-circle"></i>
+                    </a>
+                </li>
+                            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                    style="padding: .5rem 1.25rem;font-weight: bolder;cursor: pointer"
+                    onclick="window.location.href='/music/5889';return false;">
+                    <a href="/music/5889" onclick="event.stopPropagation();">
+                        <span style="color: #FF6600" class="font-weight-bolder">大鱼</span>
+                        -
+                        <small class="text-muted">周深</small>
+                    </a>
+                    <a href="/music/5889" onclick="event.stopPropagation();" style="font-size: larger">
+                        <i class="fa fa-play-circle"></i>
+                    </a>
+                </li>
+                            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                    style="padding: .5rem 1.25rem;font-weight: bolder;cursor: pointer"
+                    onclick="window.location.href='/music/42403';return false;">
+                    <a href="/music/42403" onclick="event.stopPropagation();">
+                        <span style="color: #336699" class="font-weight-bolder">爱你没差</span>
+                        -
+                        <small class="text-muted">周杰伦</small>
+                    </a>
+                    <a href="/music/42403" onclick="event.stopPropagation();" style="font-size: larger">
+                        <i class="fa fa-play-circle"></i>
+                    </a>
+                </li>
+                            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                    style="padding: .5rem 1.25rem;font-weight: bolder;cursor: pointer"
+                    onclick="window.location.href='/music/14649';return false;">
+                    <a href="/music/14649" onclick="event.stopPropagation();">
+                        <span style="color: #CC0066" class="font-weight-bolder">瞬</span>
+                        -
+                        <small class="text-muted">郑润泽</small>
+                    </a>
+                    <a href="/music/14649" onclick="event.stopPropagation();" style="font-size: larger">
+                        <i class="fa fa-play-circle"></i>
+                    </a>
+                </li>
+                            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                    style="padding: .5rem 1.25rem;font-weight: bolder;cursor: pointer"
+                    onclick="window.location.href='/music/275';return false;">
+                    <a href="/music/275" onclick="event.stopPropagation();">
+                        <span style="color: #CC3399" class="font-weight-bolder">等你下课(with 杨瑞代)</span>
+                        -
+                        <small class="text-muted">周杰伦</small>
+                    </a>
+                    <a href="/music/275" onclick="event.stopPropagation();" style="font-size: larger">
+                        <i class="fa fa-play-circle"></i>
+                    </a>
+                </li>
+                            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                    style="padding: .5rem 1.25rem;font-weight: bolder;cursor: pointer"
+                    onclick="window.location.href='/music/78712';return false;">
+                    <a href="/music/78712" onclick="event.stopPropagation();">
+                        <span style="color: #0099CC" class="font-weight-bolder">青花</span>
+                        -
+                        <small class="text-muted">周传雄</small>
+                    </a>
+                    <a href="/music/78712" onclick="event.stopPropagation();" style="font-size: larger">
+                        <i class="fa fa-play-circle"></i>
+                    </a>
+                </li>
+                            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                    style="padding: .5rem 1.25rem;font-weight: bolder;cursor: pointer"
+                    onclick="window.location.href='/music/44676';return false;">
+                    <a href="/music/44676" onclick="event.stopPropagation();">
+                        <span style="color: #CCCC00" class="font-weight-bolder">爱错</span>
+                        -
+                        <small class="text-muted">王力宏</small>
+                    </a>
+                    <a href="/music/44676" onclick="event.stopPropagation();" style="font-size: larger">
+                        <i class="fa fa-play-circle"></i>
+                    </a>
+                </li>
+                            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                    style="padding: .5rem 1.25rem;font-weight: bolder;cursor: pointer"
+                    onclick="window.location.href='/music/4195';return false;">
+                    <a href="/music/4195" onclick="event.stopPropagation();">
+                        <span style="color: #FF6666" class="font-weight-bolder">告白气球</span>
+                        -
+                        <small class="text-muted">周杰伦</small>
+                    </a>
+                    <a href="/music/4195" onclick="event.stopPropagation();" style="font-size: larger">
+                        <i class="fa fa-play-circle"></i>
+                    </a>
+                </li>
+                            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                    style="padding: .5rem 1.25rem;font-weight: bolder;cursor: pointer"
+                    onclick="window.location.href='/music/4190';return false;">
+                    <a href="/music/4190" onclick="event.stopPropagation();">
+                        <span style="color: #FF33CC" class="font-weight-bolder">稻香</span>
+                        -
+                        <small class="text-muted">周杰伦</small>
+                    </a>
+                    <a href="/music/4190" onclick="event.stopPropagation();" style="font-size: larger">
+                        <i class="fa fa-play-circle"></i>
+                    </a>
+                </li>
+                            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                    style="padding: .5rem 1.25rem;font-weight: bolder;cursor: pointer"
+                    onclick="window.location.href='/music/4210';return false;">
+                    <a href="/music/4210" onclick="event.stopPropagation();">
+                        <span style="color: #009999" class="font-weight-bolder">发如雪</span>
+                        -
+                        <small class="text-muted">周杰伦</small>
+                    </a>
+                    <a href="/music/4210" onclick="event.stopPropagation();" style="font-size: larger">
+                        <i class="fa fa-play-circle"></i>
+                    </a>
+                </li>
+                    </ul>
+    </div>
+</div>
+
+    
+    <div class="row mb-2">
+            <div class="col-md-6 mb-1">
+            <div><a href="/goto?u=68747470733a2f2f68352e68616f6b617669702e636f6d2f232f70616765732f73616c65735f696e6465782f696e6465783f6167656e745f69643d31333030303433&extra=&t=1" target="_blank" rel="nofollow noopener"><img style="width: 100%; max-height: 70px;" src="https://www.imageoss.com/images/2025/10/14/llk84ac0473bdf371bf.png" alt="广告图片" /></a></div>
+        </div>
+                            
+            <div class="col-md-6 mb-1 d-none d-md-block">
+                <a href="javascript:void(0)" class="get-setting-btn" rel="nofollow" data-key="swhz_mark">
+                    <img style="width: 100%; max-height: 70px;" src="/static/img/ggzs.jpg" alt="广告图片">
+                </a>
+            </div>
+            </div>
+
+</div>
+
+
+<footer class="bg-dark text-white mt-3 py-2">
+    <div class="text-center">
+                <a href="javascript:void(0)" class="text-white get-setting-btn" rel="nofollow" data-key="swhz_mark"><u>商务合作</u></a>
+                <a href="javascript:void(0)" class="text-white" data-toggle="modal" data-target="#feedbackModal"
+           rel="nofollow"><u>反馈建议</u></a>
+        <a href="javascript:void(0)" class="text-white get-setting-btn" rel="nofollow" data-key="mzsm_mark"><u>免责声明</u></a>
+    </div>
+    <div class="text-center">
+        <a href="/" class="text-white">歌曲宝 - gequbao.com</a> © 2025
+    </div>
+
+    <span style="display: none">
+    
+        <script> var _mtj = _mtj || []; (function () { var mtj = document.createElement("script"); mtj.src = "https://node31.aizhantj.com:21233/tjjs/?k=t8h1bavogbi"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(mtj, s); })(); </script>
+    </span>
+</footer>
+
+
+<div class="modal fade" id="feedbackModal" tabindex="-1" role="dialog" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="border-bottom: none;">
+                <h5 class="modal-title" id="feedbackModalLabel" style="color: #007bff;font-weight: bold;">意见反馈</h5>
+                <button type="button" id="feedbackModalClose" class="close" data-dismiss="modal" aria-label="关闭">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="feedbackType">反馈类型</label>
+                    <select class="form-control" id="feedbackType" required>
+                        <option value="" selected disabled>请选择反馈类型</option>
+                        <option value="function">功能建议（网站功能改进建议）</option>
+                        <option value="music">歌曲收录（请提供歌手和歌名）</option>
+                        <option value="other">其他</option>
+                    </select>
+                </div>
+                <div class="form-group" id="link-group" style="display: none">
+                    <label for="feedbackContact">错误链接</label>
+                    <input type="text" class="form-control" placeholder="输入出错的网址链接" id="link" required>
+                </div>
+                <div class="form-group">
+                    <label for="feedbackContent">反馈内容</label>
+                    <textarea class="form-control" id="feedbackContent" rows="3" required
+                              style="resize: none;"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="feedbackContact">联系邮箱</label>
+                    <input type="text" class="form-control" id="feedbackContact" required>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="feedbackResetFormBtn" class="btn btn-secondary" style="margin-right: 10px">清空表单
+                </button>
+                <button type="button" id="feedbackSubmitFormBtn" class="btn btn-primary">提交反馈</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script type="text/javascript">
+        window.appData = {"mp3_id":536561,"play_id":"SA8IUHhTVghVElsIUiUDU1lTRFoKU3MFV1oERlhYBXIaUF1RRF9fRHFRU15eR11bV3A=","mp3_title":"This is halloween","mp3_author":"Marilyn Manson","mp3_type":0,"mp3_cover":"http:\/\/img4.kuwo.cn\/star\/albumcover\/500\/s3s26\/26\/1784411134.jpg","mp3_duration":"03:24","mp3_extra_urls":[{"id":1761891,"share_link":"https:\/\/pan.quark.cn\/s\/e847ab697df8","type":"\u5938\u514b","color":"#118AB2","compel_wap":false}],"ap_preload":"metadata","is_robot":false,"extra_url_compel":false,"lrc_is_empty":false,"ad_type":1};
+    </script>
+
+<link rel="preload" as="style" href="https://www.gequbao.com/build/assets/app-Cgo3zv_7.css" /><link rel="modulepreload" href="https://www.gequbao.com/build/assets/app-DpTOPGRQ.js" /><link rel="stylesheet" href="https://www.gequbao.com/build/assets/app-Cgo3zv_7.css" /><script type="module" src="https://www.gequbao.com/build/assets/app-DpTOPGRQ.js"></script>
+    <script defer src="//cdn.bytedance.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js"></script>
+    <script defer src="//cdn.bytedance.com/cdn/expire-1-M/layer/3.5.1/layer.min.js"></script>
+        <link rel="modulepreload" href="https://www.gequbao.com/build/assets/music-DAvJpRlI.js" /><link rel="modulepreload" href="https://www.gequbao.com/build/assets/helper-DM6tp4Dt.js" /><script type="module" src="https://www.gequbao.com/build/assets/music-DAvJpRlI.js"></script></body>
+</html>
